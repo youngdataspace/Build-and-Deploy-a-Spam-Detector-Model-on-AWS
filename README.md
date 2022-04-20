@@ -36,7 +36,7 @@ From the above image, click "python37" and create a new notebook using the virtu
 
 Now we are ready to start working with data. Let's start writing in the spam_classifier.ipynb notebook. 
 
-# Part 2 - Deploy the trained model on AWS using SageMaker
+# Part 2 - Deploy the Trained Model on AWS Using SageMaker
 ## Preparation
 #### Account
 - Create an AWS account
@@ -59,4 +59,4 @@ Now we are ready to start working with data. Let's start writing in the spam_cla
 
 The remainder of this post will be explaining the deployment process in the notebook that we just created.
 
-## Deploy the Model Using SageMaker (deploy_spam_detector.ipynb)
+## Implementation of the Deployment Using SageMaker (deploy_spam_detector.ipynb)

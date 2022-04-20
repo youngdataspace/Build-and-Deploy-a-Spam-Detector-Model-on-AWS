@@ -3,7 +3,7 @@ In this post, we will build a spam message classifier and deploy it. First, we w
 
 This repository contains all the codes necessary to replicate the contents in <a href = "https://medium.com/@y.s.yoon/artificial-neural-network-ann-classifier-deployment-on-aws-cloud-servers-405254909161">this blog post</a>. If you have any comments or suggestions, email me at y.s.yoon@berkeley.edu.
 
-# Part 1 - Build a spam classifier locally
+# Part 1 - Build a Spam Classifier Locally
 
 ## Virtual Environment
 Once we build a deep learning model using TensorFlow, we will deploy it on AWS using SageMaker. However, the version of SageMaker's TensorFlow is 1.15.5 at the time of this writing. This means that we have to use Python 3.7. For those of you who have Python 3.8 like me, it is important that we train the model using Python 3.7 in a virtual environment.
@@ -31,7 +31,7 @@ These will allow us to use the python37 kernel in Jupyter Notebook as shown belo
 
 <img src ="https://github.com/youngdataspace/Build-and-Deploy-a-Spam-Detector-Model-on-AWS/blob/main/image_python37_kernel.JPG?raw=true">
 
-## Build a classifier using Jupyter Notebook (spam_classifier.ipynb)
+## Build a Classifier Using Jupyter Notebook (spam_classifier.ipynb)
 From the above image, click "python37" and create a new notebook using the virtual environment we just created.
 
 Now we are ready to start working with data. Let's start writing in the spam_classifier.ipynb notebook. 
@@ -59,4 +59,4 @@ Now we are ready to start working with data. Let's start writing in the spam_cla
 
 The remainder of this post will be explaining the deployment process in the notebook that we just created.
 
-## Deploy the model using SageMaker (deploy_spam_detector.ipynb)
+## Deploy the Model Using SageMaker (deploy_spam_detector.ipynb)

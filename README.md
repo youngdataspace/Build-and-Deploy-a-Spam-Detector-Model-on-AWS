@@ -34,4 +34,4 @@ These will allow us to use the python37 kernel in Jupyter Notebook as shown belo
 ## Build a classifier using Jupyter Notebook
 From the above image, click "python37" and create a new notebook using the virtual environment we just created.
 
-Now we are ready to start working with data. Let's dive in.
+Now we are ready to start working with data. Let's start writing in the spam_classifier.ipynb notebook. 

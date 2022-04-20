@@ -6,7 +6,7 @@ This repository contains all the codes necessary to replicate the contents in <a
 # Part 1 - Build a spam classifier locally (spam_classifier.ipynb)
 
 ## Virtual Environment
-Once we build a deep learning model using TensorFlow, we will deploy it on AWS using SageMaker. However, the version of SageMaker's TensorFlow is 1.15.5 at the time of this writing. This means that we have to use Python 3.7. For those of you who have Python 3.8 like me, it is important that we train the model using Python 3.7 on a virtual environment.
+Once we build a deep learning model using TensorFlow, we will deploy it on AWS using SageMaker. However, the version of SageMaker's TensorFlow is 1.15.5 at the time of this writing. This means that we have to use Python 3.7. For those of you who have Python 3.8 like me, it is important that we train the model using Python 3.7 in a virtual environment.
 
 1. Type the following in Anaconda Prompt</br>
 "conda create -n python37 python=3.7"
@@ -14,10 +14,10 @@ Once we build a deep learning model using TensorFlow, we will deploy it on AWS u
 
 2. Activate the python37 virtual environment</br>
 "conda activate python37"</br>
-By the way, we can deactivate the virtual environment by typing "conda deactivate" but lets leave it as active for now.</br>
+By the way, we can deactivate the virtual environment by typing "conda deactivate" but let's leave it active for now.
 
 
-3. Install necessary packages in the environment. For TensorFlow, let's match the version with the SageMaker's version.
+3. Install necessary packages in the environment. For TensorFlow, let's match the version with SageMaker's version.
 pip install tensorflow==1.15.5
 pip install pandas
 pip install matplotlib

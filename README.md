@@ -57,4 +57,4 @@ Now we are ready to start working with data. Let's start writing in the spam_cla
 - Click "Open Jupyter" to open Jupyter Notebook in SageMaker
 - Create a new notebook by clicking "new" and selecting "conda_tensorflow_p36"
 
-The remainder of this post will be explaining the deplolyment process in the notebook that we just created.
+The remainder of this post will be explaining the deployment process in the notebook that we just created.

@@ -50,7 +50,7 @@ Now we are ready to start working with data. Let's start writing in the spam_cla
 #### Create a Jupyter Notebook  
 - Go to the SageMaker Dashboard by searching SageMaker.
 - On the left menu, expand "notebook" and click instances.
-- Click the "create notebook instance" button in organge.
+- Click the "create notebook instance" button in orange.
 - Give a name to the instance (I am calling it "spam-detector")
 - The only other thing we need to set is "IAM role". Create one if you don't already have one.
 - Leave all other settings as default and click the "create notebook instance" button in orange at the bottom.

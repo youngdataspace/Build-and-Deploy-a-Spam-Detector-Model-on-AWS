@@ -38,12 +38,16 @@ Now we are ready to start working with data. Let's start writing in the spam_cla
 
 # Part 2 - Deploy the trained model on AWS using SageMaker (deploy_spam_detector.ipynb)
 ## Preparation
-#### Account and storage
-- Create an AWS account and sign in. 
+#### Account
+- Create an AWS account
+- Sign in
+#### Create an S3 bucket and upload the model
 - Search S3 and go to Buckets
 - Click the "create bucket" button in orange.
 - Give it a name (e.g., spam-detector-s3) and select your region (I selected us-west-1)
-#### Notebook  
+- Click the name of the bucket to go into the bucket
+- Upload "ann_model.zip" to the bucket
+#### Create a Jupyter Notebook  
 - Go to the SageMaker Dashboard by searching SageMaker.
 - On the left menu, expand "notebook" and click instances.
 - Click the "create notebook instance" button in organge.
@@ -52,4 +56,5 @@ Now we are ready to start working with data. Let's start writing in the spam_cla
 - Leave all other settings as default and click the "create notebook instance" button in orange at the bottom.
 - Click "Open Jupyter" to open Jupyter Notebook in SageMaker
 - Create a new notebook by clicking "new" and selecting "conda_tensorflow_p36"
-## 
+
+The remainder of this post will be explaining the deplolyment process in the notebook that we just created.

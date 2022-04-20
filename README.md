@@ -35,3 +35,21 @@ These will allow us to use the python37 kernel in Jupyter Notebook as shown belo
 From the above image, click "python37" and create a new notebook using the virtual environment we just created.
 
 Now we are ready to start working with data. Let's start writing in the spam_classifier.ipynb notebook. 
+
+# Part 2 - Deploy the trained model on AWS using SageMaker (deploy_spam_detector.ipynb)
+## Preparation
+#### Account and storage
+- Create an AWS account and sign in. 
+- Search S3 and go to Buckets
+- Click the "create bucket" button in orange.
+- Give it a name (e.g., spam-detector-s3) and select your region (I selected us-west-1)
+#### Notebook  
+- Go to the SageMaker Dashboard by searching SageMaker.
+- On the left menu, expand "notebook" and click instances.
+- Click the "create notebook instance" button in organge.
+- Give a name to the instance (I am calling it "spam-detector")
+- The only other thing we need to set is "IAM role". Create one if you don't already have one.
+- Leave all other settings as default and click the "create notebook instance" button in orange at the bottom.
+- Click "Open Jupyter" to open Jupyter Notebook in SageMaker
+- Create a new notebook by clicking "new" and selecting "conda_tensorflow_p36"
+## 

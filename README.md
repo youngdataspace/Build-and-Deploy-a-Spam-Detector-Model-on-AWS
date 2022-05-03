@@ -1,3 +1,5 @@
+<img src = "https://github.com/youngdataspace/Build-and-Deploy-a-Spam-Detector-Model-on-AWS/blob/main/Intro2.gif?raw=true">
+
 # Artificial Neural Network (ANN) Classifier + Deployment on AWS Cloud Servers
 In this post, we will build a spam message classifier and deploy it. First, we will train and evaluate an Artificial Neural Network (ANN) model locally. Once we are satisfied with our model, we will deploy it on AWS using SageMaker. 
 
